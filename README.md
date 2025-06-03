@@ -16,3 +16,7 @@ MySQL Workbench · Power BI · CSV · SQL · Data Modeling
 ✅ Analyze efficiency. Visualize ROI. Drive decisions.
 
 #zabatissuquality #stilldoinit #BIinAction #PredictiveMaintenance #DataDrivenROI
+
+### 📊 Dashboard Preview
+
+![Power BI Dashboard Preview](dashboard_preview.png)
