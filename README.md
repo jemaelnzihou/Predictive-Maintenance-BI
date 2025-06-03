@@ -57,6 +57,100 @@ A full-stack data science & business intelligence project that models cost savin
 ✅ **Analyze efficiency. Visualize ROI. Drive decisions.**
 
 #zabatissuquality #stilldoinit #BIinAction #PredictiveMaintenance #DataDrivenROI
+---
+## 🧪 Sample Data Overview (`sample_data.sql`)
+
+The `sample_data.sql` file contains `INSERT INTO` statements that populate the normalized database with realistic sample records. These entries simulate business scenarios related to predictive maintenance and cost efficiency projects.
+
+This data is used to:
+- Test the schema functionality
+- Feed visuals in Power BI
+- Analyze KPIs, ROI, and employee/project relationships
+
+---
+
+### 📁 1. `departments`
+
+```sql
+INSERT INTO departments VALUES 
+(1, 'Operations', 'New York'),
+(2, 'Engineering', 'Los Angeles'),
+(3, 'Finance', 'Chicago');
+```
+
+---
+
+### 👥 2. `employees`
+
+```sql
+INSERT INTO employees VALUES
+(101, 'John Doe', 'Project Manager', 95000.00, 5000.00, '2020-05-01', 1),
+(102, 'Jane Smith', 'Data Analyst', 85000.00, 2000.00, '2021-03-15', 2);
+```
+
+---
+
+### 🏗️ 3. `projects`
+
+```sql
+INSERT INTO projects VALUES
+(1001, 'Defect Reduction', '2023-01-01', '2023-12-31', 101),
+(1002, 'Energy Optimization', '2024-01-01', '2024-10-01', 101);
+```
+
+---
+
+### 📈 4. `kpi_tracking`
+
+```sql
+INSERT INTO kpi_tracking VALUES
+(201, 1001, 'Defect Rate', 12.5, 3.5, '2023-11-01'),
+(202, 1002, 'Energy Efficiency', 60.0, 85.0, '2024-05-15');
+```
+
+---
+
+### 💰 5. `cost_savings`
+
+```sql
+INSERT INTO cost_savings VALUES
+(301, 1001, 500000.00, 650000.00, 30.0, '2023-12-31'),
+(302, 1002, 300000.00, 400000.00, 33.3, '2024-10-01');
+```
+
+---
+
+### 📉 6. `interest_rates`
+
+```sql
+INSERT INTO interest_rates VALUES
+(401, 2023, 6, 4.75, 'Federal Reserve'),
+(402, 2024, 1, 4.25, 'Federal Reserve');
+```
+
+---
+
+### 🏥 7. `hospitalization_rates`
+
+```sql
+INSERT INTO hospitalization_rates VALUES
+(501, 'North America', 2023, 6, 15000, 7000, 500),
+(502, 'Europe', 2024, 1, 12000, 4000, 300);
+```
+
+---
+
+### 🌍 8. `gdp_data`
+
+```sql
+INSERT INTO gdp_data VALUES
+(601, 2023, 2, 21500000.00, 'USA'),
+(602, 2024, 1, 21800000.00, 'USA');
+```
+
+---
+
+✅ This sample dataset supports KPI benchmarking, ROI visualization, cross-tabulation with macroeconomic data, and department-level employee insights.
 
 ---
 ## 🗂️ Database Schema Overview (`schema.sql`)
