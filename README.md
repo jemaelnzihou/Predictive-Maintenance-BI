@@ -275,3 +275,45 @@ mysql -u username -p database_name < schema.sql
 
 ✅ **Normalized to 3NF** | 🔗 **Full foreign key relationships** | 🔍 **Ready for Power BI & data analysis**
 
+---
+## 🔍 Entity Relationship Diagram (ERD) – Project Insights
+
+This ERD visually models the normalized schema of the Predictive Maintenance BI project. It defines the **structure and relationships** between the database entities and supports strategic data analysis, KPI tracking, and cost-saving initiatives.
+
+---
+
+### 🧠 Key Insights and Importance
+
+- **Projects as the Central Entity:**  
+  The `projects` table is the nucleus, connecting directly to `cost_savings`, `kpi_tracking`, and indirectly to `departments` via `employees`. This models real-world project ownership and accountability.
+
+- **1:M Relationships Enable Performance Analysis:**  
+  Each project can log multiple KPI improvements (`kpi_tracking`) and financial evaluations (`cost_savings`). This supports longitudinal tracking of process improvements.
+
+- **Human Resource Integration:**  
+  `employees` are linked to `departments`, and indirectly tied to projects through the `project_manager` role. This allows HR-based performance filtering and cross-functional project analysis.
+
+- **External Factors as Contextual Datasets:**  
+  `interest_rates`, `gdp_data`, and `hospitalization_rates` are included as external data sources. These enable economic and public health correlations with project performance and execution timing.
+
+- **Normalization & Integrity (3NF):**  
+  Every table is normalized to **Third Normal Form**, reducing redundancy and ensuring update consistency. Each entity has a primary key, and foreign key constraints enforce referential integrity.
+
+---
+
+### 📐 Summary of Schema Design
+
+| Table                | Purpose                                  |
+|---------------------|-------------------------------------------|
+| `departments`       | Stores functional units within the org   |
+| `employees`         | Holds employee data linked to depts      |
+| `projects`          | Defines each project and manager ID      |
+| `kpi_tracking`      | Measures before-and-after KPI values     |
+| `cost_savings`      | Tracks savings, actuals, and ROI         |
+| `interest_rates`    | External interest rate trends            |
+| `hospitalization_rates` | Health-related external metrics      |
+| `gdp_data`          | GDP values by country and quarter        |
+
+---
+
+This ERD structure enables advanced reporting and decision-making using Power BI, with direct impact on identifying high-ROI projects and visualizing macroeconomic influences on maintenance initiatives.
