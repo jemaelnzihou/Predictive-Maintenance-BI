@@ -19,4 +19,9 @@ MySQL Workbench · Power BI · CSV · SQL · Data Modeling
 
 ### 📊 Dashboard Preview
 
-![Power BI Dashboard Preview](dashboard_preview.png)
+![Power BI Dashboard Preview](dashboard_preview.png)   
+
+### 🧠 Download the Interactive Power BI Report
+
+📥 [Download Predictive Maintenance Dashboard (.pbix)](./Predictive_Maintenance_Dashboard.pbix)
+
