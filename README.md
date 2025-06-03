@@ -50,7 +50,7 @@ A full-stack data science & business intelligence project that models cost savin
 
 ## 📥 Download the Power BI File
 
-[Download Predictive Maintenance Dashboard (.pbix)](./predictive%20maintenance%20Dashboard.pbix)
+📥 [Download Predictive Maintenance Dashboard (.pbix)](./predictive_maintenance_Dashboard.pbix)
 
 ---
 
@@ -58,9 +58,5 @@ A full-stack data science & business intelligence project that models cost savin
 
 #zabatissuquality #stilldoinit #BIinAction #PredictiveMaintenance #DataDrivenROI
 
-![Power BI Dashboard Preview](dashboard_preview.png)   
 
-### 🧠 Download the Interactive Power BI Report
-
-📥 [Download Predictive Maintenance Dashboard (.pbix)](./predictive_maintenance_Dashboard.pbix)
 
