@@ -317,3 +317,16 @@ This ERD visually models the normalized schema of the Predictive Maintenance BI 
 ---
 
 This ERD structure enables advanced reporting and decision-making using Power BI, with direct impact on identifying high-ROI projects and visualizing macroeconomic influences on maintenance initiatives.
+
+---
+## 📐 Entity Relationship Diagram (ERD)
+
+This diagram illustrates the normalized structure of the predictive maintenance database schema, including key entities such as `projects`, `employees`, `departments`, and external macroeconomic datasets.
+
+![Entity Relationship Diagram](ERD.png)
+
+The design supports:
+- 🔄 3NF normalization for clean, modular data
+- 🔗 Strong foreign key relationships for ROI and KPI tracking
+- 📊 Analytical use in Power BI and real-time dashboards
+
